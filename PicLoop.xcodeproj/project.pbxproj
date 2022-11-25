@@ -14,10 +14,12 @@
 		0060718A291CD61A0087E79E /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00607188291CD61A0087E79E /* Demo.xcdatamodeld */; };
 		0060718C291CD6280087E79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0060718B291CD6280087E79E /* Assets.xcassets */; };
 		0060718F291CD6280087E79E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0060718D291CD6280087E79E /* LaunchScreen.storyboard */; };
+		00607199291D02340087E79E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00607198291D02340087E79E /* HomeViewController.swift */; };
+		00FA65B82926247100A02860 /* BennerPicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA65B72926247100A02860 /* BennerPicCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0060717C291CD61A0087E79E /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0060717C291CD61A0087E79E /* PicLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0060717F291CD61A0087E79E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00607181291CD61A0087E79E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00607183291CD61A0087E79E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		0060718B291CD6280087E79E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0060718E291CD6280087E79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00607190291CD6280087E79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00607198291D02340087E79E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00FA65B72926247100A02860 /* BennerPicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BennerPicCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,7 @@
 		00607173291CD61A0087E79E = {
 			isa = PBXGroup;
 			children = (
-				0060717E291CD61A0087E79E /* Demo */,
+				0060717E291CD61A0087E79E /* PicLoop */,
 				0060717D291CD61A0087E79E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +54,34 @@
 		0060717D291CD61A0087E79E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0060717C291CD61A0087E79E /* Demo.app */,
+				0060717C291CD61A0087E79E /* PicLoop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0060717E291CD61A0087E79E /* Demo */ = {
+		0060717E291CD61A0087E79E /* PicLoop */ = {
 			isa = PBXGroup;
 			children = (
 				0060717F291CD61A0087E79E /* AppDelegate.swift */,
 				00607181291CD61A0087E79E /* SceneDelegate.swift */,
 				00607183291CD61A0087E79E /* ViewController.swift */,
 				00607185291CD61A0087E79E /* Main.storyboard */,
+				00607198291D02340087E79E /* HomeViewController.swift */,
+				00FA65B72926247100A02860 /* BennerPicCell.swift */,
 				0060718B291CD6280087E79E /* Assets.xcassets */,
 				0060718D291CD6280087E79E /* LaunchScreen.storyboard */,
 				00607190291CD6280087E79E /* Info.plist */,
 				00607188291CD61A0087E79E /* Demo.xcdatamodeld */,
 			);
-			path = Demo;
+			path = PicLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0060717B291CD61A0087E79E /* Demo */ = {
+		0060717B291CD61A0087E79E /* PicLoop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00607193291CD6280087E79E /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = 00607193291CD6280087E79E /* Build configuration list for PBXNativeTarget "PicLoop" */;
 			buildPhases = (
 				00607178291CD61A0087E79E /* Sources */,
 				00607179291CD61A0087E79E /* Frameworks */,
@@ -85,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = PicLoop;
 			productName = Demo;
-			productReference = 0060717C291CD61A0087E79E /* Demo.app */;
+			productReference = 0060717C291CD61A0087E79E /* PicLoop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00607177291CD61A0087E79E /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = 00607177291CD61A0087E79E /* Build configuration list for PBXProject "PicLoop" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0060717B291CD61A0087E79E /* Demo */,
+				0060717B291CD61A0087E79E /* PicLoop */,
 			);
 		};
 /* End PBXProject section */
@@ -143,8 +149,10 @@
 			files = (
 				00607184291CD61A0087E79E /* ViewController.swift in Sources */,
 				00607180291CD61A0087E79E /* AppDelegate.swift in Sources */,
+				00FA65B82926247100A02860 /* BennerPicCell.swift in Sources */,
 				0060718A291CD61A0087E79E /* Demo.xcdatamodeld in Sources */,
 				00607182291CD61A0087E79E /* SceneDelegate.swift in Sources */,
+				00607199291D02340087E79E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00607177291CD61A0087E79E /* Build configuration list for PBXProject "Demo" */ = {
+		00607177291CD61A0087E79E /* Build configuration list for PBXProject "PicLoop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00607191291CD6280087E79E /* Debug */,
@@ -352,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00607193291CD6280087E79E /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		00607193291CD6280087E79E /* Build configuration list for PBXNativeTarget "PicLoop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00607194291CD6280087E79E /* Debug */,
